@@ -18,3 +18,5 @@ Este projeto foi desenvolvido como requisito para o **Checkpoint 3** da discipli
 
 ---
 
+## Desenvolvido por: 
+Gustavo Braga Araujo - RM569211
