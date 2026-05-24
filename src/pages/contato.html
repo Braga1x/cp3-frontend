@@ -4,14 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nexus Games | Contato</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../estilo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
+    <header class="main-header">
+        <div class="header-container">
+            <a href="../../index.html" class="logo">Nexus<span>Games</span></a>
+            <nav class="nav-menu">
+                <a href="../../index.html">Home</a>
+                <a href="portifolio.html">Portfólio</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="contato.html" class="active">Contato</a>
+            </nav>
+            <div class="cart-status">
+                Carrinho: <span id="cart-count">0</span>
+            </div>
+        </div>
+    </header>
 
-    <script src="../js/script.js"></script>
+    <main class="container page-padding">
+        <section class="contact-wrapper">
+            <div class="contact-header">
+                <h1>Fale com o Comando</h1>
+                <p>Dúvidas sobre compatibilidade de hardware, parcerias profissionais ou suporte pós-venda?</p>
+            </div>
+
+            <form id="gamer-contact-form" class="contact-form">
+                <div class="form-group">
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" id="nome" name="nome" placeholder="Ex: Gustavo Alcantara" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail Profissional</label>
+                    <input type="email" id="email" name="email" placeholder="seu-email@dominio.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="descricao">Descrição da Solicitação</label>
+                    <textarea id="descricao" name="descricao" rows="6" placeholder="Descreva detalhadamente o seu projeto de setup ou dúvida técnica..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block">Enviar Mensagem</button>
+                <div id="form-feedback" class="form-feedback hidden"></div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-info">
+                <h4>Nexus Games</h4>
+                <p>Alta performance e design minimalista.</p>
+            </div>
+            <div class="footer-contact">
+                <h4>Contato</h4>
+                <p>E-mail: contato@nexusgames.com.br</p>
+                <p>Tel: (11) 99999-0000</p>
+                <p>São Paulo, SP</p>
+            </div>
+            <div class="footer-socials">
+                <h4>Siga-nos</h4>
+                <div class="social-links">
+                    <a href="#">Instagram</a>
+                    <a href="#">Discord</a>
+                    <a href="#">GitHub</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="current-year"></span> Nexus Games. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
 </body>
 </html>
