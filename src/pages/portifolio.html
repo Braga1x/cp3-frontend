@@ -10,7 +10,97 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header class="main-header">
+        <div class="header-container">
+            <a href="../../index.html" class="logo">Nexus<span>Games</span></a>
+            <nav class="nav-menu">
+                <a href="../../index.html">Home</a>
+                <a href="portifolio.html" class="active">Portfólio</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="contato.html">Contato</a>
+            </nav>
+            <div class="cart-status">
+                Carrinho: <span id="cart-count">0</span>
+            </div>
+        </div>
+    </header>
 
+    <main class="container page-padding">
+        <section class="portfolio-intro">
+            <h1>Arsenal Disponível</h1>
+            <p>Explore nossa linha exclusiva de hardware e periféricos de alta gama.</p>
+        </section>
+
+        <section class="products-grid">
+    
+    <div class="product-card">
+        <div class="product-badge">Promoção</div>
+        <img src="../assets/mousegamer.avif" alt="Mouse Gamer" class="product-image">
+        <h3>Mouse Nexus Apex V1</h3>
+        <p class="product-desc">Sensor óptico de 26K DPI, switches ópticos e peso ultra leve de 49g.</p>
+        <p class="price"><span class="old-price">R$ 599,00</span> R$ 449,00</p>
+        <button class="btn btn-primary add-to-cart-btn">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="product-card">
+        <img src="../assets/teclado.avif" alt="Teclado Mecânico" class="product-image">
+        <h3>Teclado Mecânico MK-80</h3>
+        <p class="product-desc">Layout 75%, switches magnéticos lineares e estrutura em alumínio anodizado.</p>
+        <p class="price">R$ 899,00</p>
+        <button class="btn btn-primary add-to-cart-btn">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="product-card">
+        <div class="product-badge">Lançamento</div>
+        <img src="../assets/headset.avif" alt="Headset" class="product-image">
+        <h3>Headset SoundForge Pro</h3>
+        <p class="product-desc">Áudio espacial planar magnético e isolamento acústico passivo de estúdio.</p>
+        <p class="price">R$ 1.249,00</p>
+        <button class="btn btn-primary add-to-cart-btn">Adicionar ao Carrinho</button>
+    </div>
+    
+</section>
+
+        <section class="pricing-table-section">
+            <h2>Planos de Upgrade & Montagem</h2>
+            <p>Selecione a consultoria de montagem ideal para o seu nível competitivo.</p>
+            
+            <div class="table-responsive">
+                <table class="pricing-table">
+                    <thead>
+                        <tr>
+                            <th>Serviço / Setup</th>
+                            <th>Especificação</th>
+                            <th>Prazo</th>
+                            <th>Preço</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Setup Competitive Tier 1</strong></td>
+                            <td>Otimização de software + montagem básica de periféricos</td>
+                            <td>2 dias úteis</td>
+                            <td>R$ 250,00</td>
+                        </tr>
+                        <tr class="highlight-row">
+                            <td><strong>Setup Pro Enthusiast</strong></td>
+                            <td>Montagem de Water Cooler Custom + Overclock estável certificado</td>
+                            <td>5 dias úteis</td>
+                            <td>R$ 600,00</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Custom Build Nexus Games</strong></td>
+                            <td>Prototipagem de gabinete, pintura eletrostática e cable management de elite</td>
+                            <td>10 dias úteis</td>
+                            <td>Sob Consulta</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    
 
     <script src="../js/script.js"></script>
 </body>
